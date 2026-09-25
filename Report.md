@@ -1,61 +1,157 @@
-### Task 6: Creating and Evaluating Strong Passwords
+# 🔐 Password Security and Strength Evaluation
 
-#### Objective
-The goal of this task was to understand what makes a password strong, create passwords of varying complexity, test them using an online password strength checker (e.g., passwordmeter.com), and summarize the findings to identify best practices for password security.
+## 🎯 Objective
 
-#### Tools Used
-- Online password strength checker: [passwordmeter.com](https://passwordmeter.com)
+The objective of this task was to understand what makes a password strong, create passwords with varying levels of complexity, evaluate their strength using an online password strength checker, and identify best practices for password security.
 
-#### Process
-Following the mini-guide, I completed the task as outlined below:
+## 🛠️ Tool Used
 
-1. **Created Multiple Passwords with Varying Complexity**  
-   I generated four passwords with increasing complexity:  
-   - Password 1: `pass123` (simple, lowercase, and numbers)  
-   - Password 2: `Pass1234` (added uppercase, slightly longer)  
-   - Password 3: `P@ssw0rd!` (added symbols, uppercase, lowercase, and numbers)  
-   - Password 4: `Tr0ub4dor&3xplor3r` (longer, mixed characters, no common words)
+- **Password Meter** — Online password strength checker used to evaluate password complexity and provide feedback.
 
-2. **Used a Variety of Characters**  
-   Each password incorporated a combination of uppercase, lowercase, numbers, symbols, and length variations as recommended.
+## 📋 Task Overview
 
-3. **Tested Each Password on Passwordmeter.com**  
-   I evaluated the passwords using passwordmeter.com, which provides a score (out of 100) and feedback on strengths and weaknesses.
+The practical focused on understanding how password length, character diversity, randomness, and predictable patterns affect password strength.
 
-4. **Noted Scores and Feedback**  
-   - **Password 1: `pass123`**  
-     Score: 35% (Weak)  
-     Feedback: Too short, lacks uppercase and symbols, uses predictable patterns.  
-   - **Password 2: `Pass1234`**  
-     Score: 68 (Strong)  
-     Feedback: Slightly better with uppercase, but still too short and predictable.  
-   - **Password 3: `P@ssw0rd!`**  
-     Score: 82% (Very Strong)  
-     Feedback: Better with symbols and mixed characters, but "password" is a common word, making it vulnerable.  
-   - **Password 4: `Tr0ub4dor&3xplor3r`**  
-     Score: 100% (Very Strong)  
-     Feedback: Excellent length, diverse characters, no predictable patterns. Minor improvement: avoid repeating characters.
+The task involved:
 
-5. **Identified Best Practices for Strong Passwords**  
-   - Use at least 12-16 characters.  
-   - Include uppercase, lowercase, numbers, and symbols.  
-   - Avoid common words (e.g., "password") or predictable patterns (e.g., "1234").  
-   - Use random, unique combinations for each account.
+- Creating passwords with different complexity levels
+- Testing password strength
+- Comparing scores and feedback
+- Understanding common password attacks
+- Identifying password security best practices
 
-6. **Tips Learned from the Evaluation**  
-   - Longer passwords significantly improve strength.  
-   - Avoid dictionary words, even with substitutions (e.g., "P@ssw0rd" is still Strong, but scores only 68%).  
-   - Randomness is key—use unrelated words or phrases.  
-   - Password managers can help generate and store complex passwords securely.
+## 🔧 Process
 
-7. **Researched Common Password Attacks**  
-   - **Brute Force Attacks**: Hackers systematically try all possible combinations to guess a password. Longer passwords are harder to crack.  
-   - **Dictionary Attacks**: Attackers use a list of common words or phrases. Avoid dictionary words to mitigate this risk.
+### 1. Created Passwords with Varying Complexity
 
-8. **Summary of How Password Complexity Affects Security**  
-   Password complexity directly impacts security. Short, predictable passwords (e.g., `pass123`) are easily cracked through brute force or dictionary attacks. Longer, random passwords with diverse characters (e.g., `Tr0ub4dor&3xplor3r`) take exponentially longer to crack, making them far more secure. Complexity also reduces the risk of guessing or phishing attacks.
+Four sample passwords with increasing levels of complexity were evaluated during the exercise.
 
-#### Outcome
-Through this task, I gained a deeper understanding of password security. The evaluation highlighted the importance of length, randomness, and character diversity in creating strong passwords. I also learned best practices to protect against common attacks like brute force and dictionary attacks, ensuring better online security.
+For security and privacy, the actual password strings used during the exercise are not published in this repository.
 
----
+| Password | Complexity | Reported Score | Observation |
+|----------|------------|----------------|-------------|
+| Password 1 | Simple | 35% | Short and predictable |
+| Password 2 | Moderate | 68% | Improved character variety but still predictable |
+| Password 3 | High | 82% | Mixed character types but contained a common word |
+| Password 4 | High | 100% | Longer and more diverse character combination |
+
+> The passwords above were sample passwords created specifically for this educational exercise and were not intended for real account use.
+
+## 📊 Password Strength Observations
+
+### Password 1 — Simple
+
+The first sample was short and primarily used lowercase characters and numbers.
+
+**Observation:**
+- Short length
+- Predictable pattern
+- Limited character variety
+- More susceptible to guessing and dictionary-based attacks
+
+### Password 2 — Moderate
+
+The second sample introduced uppercase characters and increased the length.
+
+**Observation:**
+- Better character diversity
+- Improved strength compared with the first sample
+- Still relatively predictable
+
+### Password 3 — High
+
+The third sample included uppercase and lowercase characters, numbers, and symbols.
+
+**Observation:**
+- Greater character diversity
+- Improved password strength
+- Use of a common word can still make a password predictable
+
+### Password 4 — High
+
+The fourth sample used a longer combination of mixed characters.
+
+**Observation:**
+- Greater length
+- Diverse character types
+- Less predictable structure
+- Stronger result during the evaluation
+
+## 🧠 Password Security Best Practices
+
+Based on the evaluation, the following practices were identified:
+
+- Use passwords of at least 12–16 characters where appropriate.
+- Use a combination of uppercase and lowercase characters, numbers, and symbols.
+- Avoid common words and predictable patterns.
+- Avoid easily guessed sequences such as `1234`.
+- Use unique passwords for different accounts.
+- Prefer randomly generated passwords or passphrases.
+- Use a password manager to securely generate and store passwords.
+
+## ⚔️ Common Password Attacks
+
+### Brute Force Attack
+
+A brute force attack attempts different combinations of characters until the correct password is discovered.
+
+Longer and more complex passwords increase the number of possible combinations.
+
+### Dictionary Attack
+
+A dictionary attack uses lists of commonly used words, passwords, and phrases to attempt to guess credentials.
+
+Avoiding common words and predictable combinations can reduce this risk.
+
+## 📈 Effect of Password Length and Complexity
+
+The evaluation demonstrated that password strength can be affected by:
+
+- Password length
+- Character diversity
+- Randomness
+- Predictability
+- Use of common words
+- Repeated or sequential characters
+
+Longer and less predictable passwords generally provide stronger protection against password-guessing attacks.
+
+## 📚 Key Concepts Demonstrated
+
+- Password security
+- Password strength evaluation
+- Password complexity
+- Password length
+- Brute force attacks
+- Dictionary attacks
+- Password management
+- Security best practices
+- Authentication security
+
+## 📌 Summary
+
+This practical provided hands-on experience in evaluating password strength and understanding the characteristics of stronger passwords.
+
+The exercise demonstrated the importance of password length, randomness, character diversity, and avoiding predictable patterns. It also introduced common password attacks such as brute force and dictionary attacks.
+
+## 📁 Project Structure
+
+```text
+ElevateLabs-Task-6-Password-Security/
+└── README.md
+```
+
+## ⚠️ Ethical and Security Note
+
+The passwords used in this practical were sample passwords created for educational testing.
+
+Real passwords, credentials, API keys, or other authentication secrets should never be published in public repositories.
+
+Password testing should only be performed with passwords that you own or are authorized to evaluate.
+
+## 👩‍💻 Author
+
+**Jahnavi Pokala**
+
+- GitHub: [jahnavi9905](https://github.com/jahnavi9905)
+- LinkedIn: [Jahnavi Pokala](https://www.linkedin.com/in/jahnavi-pokala59/)
